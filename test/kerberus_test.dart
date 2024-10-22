@@ -11,7 +11,7 @@ void main() {
 
     Challenge challenge = Challenge(
       id: uuid.v4(),
-      salts: [uuid.v4(), uuid.v4(), uuid.v4(), uuid.v4(), uuid.v4(), uuid.v4(), uuid.v4(), uuid.v4(), uuid.v4(), uuid.v4()],
+      salts: [uuid.v4(), uuid.v4()],
       difficultyFactor: 50000,
     );
 
@@ -21,6 +21,8 @@ void main() {
       challenge,
       input,
     );
+
+    var success = await validateSolution(challenge, solution, input);
 
     expect(await validateSolution(challenge, solution, input), isTrue);
 
