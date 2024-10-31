@@ -1,6 +1,6 @@
 name: kerberus
 description: "Kerberus is a proof of work captcha library"
-version: 1.0.0
+version: 1.0.1
 homepage: https://docs.icure.com/how-to/initialize-the-sdk/captcha#kerberus
 repository: https://github.com/icure/kerberus-dart
 
