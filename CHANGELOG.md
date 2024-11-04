@@ -1,3 +1,3 @@
-## 1.0.0
+## 1.0.1
 
-* Added `resolveChallenge` and `validateSolution` methods to solve and validate challenges
+Add challenge json decoding
